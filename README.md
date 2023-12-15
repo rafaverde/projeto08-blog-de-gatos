@@ -5,7 +5,7 @@ Projeto desenvolvido no curso Explorer da Rocketseat, de um layout de blog com t
 </p>
 
 <p align="center">
-Veja o resultado <a href="https://rafaverde.github.io/" target="_blank">aqui.</a>
+Veja o resultado <a href="https://rafaverde.github.io/projeto08-blog-de-gatos/" target="_blank">aqui.</a>
 </p>
 
 <p align="center">
