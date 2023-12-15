@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de Gatos - Projeto Rockeseat</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-paw.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="container">
+          <img src="./assets/logo-paw.svg" alt="Ícone com pata de Gato" />
+          <form>
+            <div class="input-wrapper">
+              <label for="search">Pesquise por artigos</label>
+              <input
+                type="text"
+                id="search"
+                placeholder="Pesquise por artigos"
+              />
+            </div>
+          </form>
+          <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/women/1.jpg"
+            alt="Avatar"
+          />
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <article class="single-post">
+            <img
+              class="main-img"
+              src="https://source.unsplash.com/random?cats?a=1"
+              alt=""
+            />
+            <div class="content">
+              <div class="content-header">
+                <h1>Seriam os gatos astronautas?</h1>
+                <div class="review">
+                  <img src="./assets/bt-thumbs-up.svg" alt="Like" />
+                  <img src="./assets/bt-thumbs-down.svg" alt="Dislike" />
+                </div>
+              </div>
+              <p>
+                Os gatos são animais fascinantes e cercados de mistérios. De
+                temperamento independente e misterioso, esses felinos são
+                conhecidos por sua agilidade, elegância e um comportamento
+                muitas vezes imprevisível. Contudo, recentemente, uma teoria tem
+                ganhado espaço na internet e entre teóricos de conspiração:
+                seriam os gatos astronautas?
+              </p>
+              <p>
+                A teoria sugere que os gatos não são animais terrestres, mas sim
+                seres extraterrestres enviados para realizar uma missão
+                específica em nosso planeta. Há relatos históricos que apontam
+                para o fato de que os gatos eram considerados seres sagrados em
+                diferentes culturas e até mesmo associados a figuras divinas.
+                Isso poderia indicar que os gatos têm uma origem muito mais
+                mística do que se pensava anteriormente.
+              </p>
+              <p>
+                Além disso, há teóricos que acreditam que os felinos possuem
+                habilidades telepáticas e são capazes de se comunicar com outras
+                espécies alienígenas. Essa crença baseia-se em relatos de
+                pessoas que afirmam terem visto gatos reagindo a estímulos que
+                não são perceptíveis aos seres humanos, ou até mesmo se
+                comportando de maneira incomum durante eventos astronômicos,
+                como uma aurora boreal. Esses e outros indícios foram
+                interpretados como sinais de que os gatos seriam seres
+                interplanetários.
+              </p>
+              <div class="sharebox">
+                <p>Compartilhe em suas redes:</p>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+              </div>
+            </div>
+          </article>
+          <aside>
+            <h2>Artigos relacionados</h2>
+            <div class="related-article">
+              <div class="thumbnail">
+                <img src="https://source.unsplash.com/random?cats?b=1" alt="" />
+              </div>
+              <div class="content">
+                <h3>Sábado preguiçoso</h3>
+                <p>
+                  Descubra atividades interessantes para fazer com seu pet
+                  durante os finais de semana.
+                </p>
+              </div>
+            </div>
+            <div class="related-article" style="--delay-fade: 1.2s">
+              <div class="thumbnail">
+                <img src="https://source.unsplash.com/random?cats?c=1" alt="" />
+              </div>
+              <div class="content">
+                <h3>Balaio de gatos</h3>
+                <p>
+                  Como evitar confusões entre seus gatíneos e acostumá-los desde
+                  filhotes.
+                </p>
+              </div>
+            </div>
+            <div class="related-article" style="--delay-fade: 1.4s">
+              <div class="thumbnail">
+                <img src="https://source.unsplash.com/random?cats?d=1" alt="" />
+              </div>
+              <div class="content">
+                <h3>Cartela de cores</h3>
+                <p>
+                  Como evitar confusões entre seus gatíneos e acostumá-los desde
+                  filhotes.
+                </p>
+              </div>
+            </div>
+            <div class="related-article" style="--delay-fade: 1.6s">
+              <div class="thumbnail">
+                <img src="https://source.unsplash.com/random?cats?e=1" alt="" />
+              </div>
+              <div class="content">
+                <h3>Os gatos sentem frio?</h3>
+                <p>
+                  Preparem-se para a frente fria que vem para o país da melhor
+                  maneira possível.
+                </p>
+              </div>
+            </div>
+            <div class="related-article" style="--delay-fade: 1.8s">
+              <div class="thumbnail">
+                <img src="https://source.unsplash.com/random?cats?f=1" alt="" />
+              </div>
+              <div class="content">
+                <h3>Conheça o Moacir</h3>
+                <p>
+                  Moacir é o gatinho da semana do nosso blog. Venha conhecer sua
+                  história de superação.
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <p>© 2023 - Rocketseat Explorer</p>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
